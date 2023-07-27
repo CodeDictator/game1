@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: linear-gradient(45deg, red, orange); */
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100wh;
+    border-bottom: 3px solid;
+    border-color: green ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pg-name{
+    font-size: 100px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.game-name{
+    font-size: 50px;
+    font-weight: bold;
+        background-image: linear-gradient(45deg, red,green);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+main{
+    width: 75%;
+    height: 500px  ;
+    position: relative;
+    top: 10px;
+    left: 12.5%;
+    border-radius: 10px;
+}
+.border{
+    height: 100%;
+    /* background-color: aqua;   */
+    display: flex;
+
+}
+.user-img{
+    width: 200px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.computer-img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 110px;
+    left: 25%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.user-section{
+    background-image:linear-gradient(to right, black, rgb(135, 130, 130));
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 4px 10px 5px rgba(0, 0, 0, 0.34);
+}
+.comp-section{
+    background-image:linear-gradient(to right, rgb(135, 130, 130), black);
+    /* background-color: green; */
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 4px 10px 5px rgba(0, 0, 0, 0.34);
+}
+.top{
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    left: 32%;
+    top: 20%;
+    color: white;
+}
+.score{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 35%;
+    top: 30%;
+    color: white;
+}
+.user-display{
+    position: relative;
+    left: -10px;
+    text-align: end;
+    /* border: 1px solid red; */
+}
+.computer-display{
+    position: relative;
+    top:212px;
+    left: 10px;
+    /* border: 1px solid red; */
+}
+.user-img:hover{
+    opacity: 0.78;
+}
+.computer-img:hover{
+    opacity: 0.76;
+}
+.user-mid-section{
+    display: flex;
+    gap: 150px;
+    
+}
+.img{
+    position: relative;
+    top:70px;
+    left: 100px;
+}
+.option-list{
+    position: relative;
+    top: 90px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: White;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+
+}
+.op3{
+    /* background-image: linear-gradient(45deg, blue, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* margin: 10px; */
+}
+.op1{
+    /* background-image: linear-gradient(45deg, black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  */
+}
+.op2{
+    /* background-image: linear-gradient(45deg, skyblue, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+button{
+    margin-top: 40px;
+    cursor: pointer;
+    border: 2px solid skyblue;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: skyblue;
+    box-shadow: 5px 10px 4px rgba(0, 0 ,0,0.25);
+    font-size: 30px;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select:none;
+  font-weight: bold;
+  color: white;
+}
+.option:hover{
+    opacity: 0.78;
+}
+button:active{
+    opacity: 0.68;
+    transform: translateY(4px);
+}
+
+.top{
+    font-size: 40px;
+    font-weight: bold;
+     background-image: linear-gradient(45deg, white, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.result{
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    left: 30%;
+    color: white;
+    font-weight: bold;
+}
+.reset{
+    position:absolute;
+    left: 530px;
+    top: 350px;
+}
+.reset:hover{
+    opacity: 0.78;
+}
+.ani{
+    font-size: 30px;
+    color: white;
+    background-color: skyblue;
+    height: 40px;
+    position: absolute;
+    border-radius: 4px;
+    left: 260px;
+    top: 20px;
+    /* width: 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.hidden{
+    display: none;  
+}

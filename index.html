@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+         <div class="pg-name">Games.com</div>
+         <div class="game-name">Rock-Paper-Scissor</div>
+    </header>
+    <main class="main">
+      <div class="border">
+        <div class="ani">
+            <div class="hidden ani scis">SCISSOR</div>
+            <div class="hidden ani pap">PAPER</div>
+            <div class="ani rk">ROCK</div>
+        </div>
+        <div class="user-section">
+            <div class="top username">Basanta</div>
+           <div class="user-mid-section">
+            <div class="img"><img src="/img/png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png" alt="logo" class="user-img"></div>
+            <div class="option-list">
+                <button class="option op1" id="rock">Rock</button>
+                 <button class="option op2" id="paper">Paper</button>
+                 <button class="option op3" id="scissor">Scissor</button>
+            </div>
+           </div>
+           <div class="result" id="user-choice">You:</div>
+            <div class="score user-display" id="first">CONGRATULATION</div>
+        </div>
+        <div class="comp-section">
+            <div class="top comp">Computer</div>
+        <img src="/img/3511752.png" alt="logo" class="computer-img">
+        <button class="reset" id="reset">Reset</button>
+        <div class="score computer-display" id="second">YOU WON...</div>
+        <div class="result" id="com-choice">Computer:</div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
